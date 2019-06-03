@@ -1,0 +1,129 @@
+
+h1 a {
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+/* this class is used outside of the container */
+.body-background {
+  background-color: #cc8500;
+}
+
+nav.header-color {
+  background-color: #2b2a28;
+}
+
+nav.a {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+.headerImages {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+
+/*  this class is used to color the container */
+.content-background {
+  background-color: #fff;
+}
+
+.container.container-header {
+  /* box-shadow: 1px 1px 5px red */
+  color: #fff;
+}
+
+.container {
+   /* box-shadow: 1px 1px 5px red */
+}
+
+.container-box-shadow {
+  box-shadow: 1px 1px 5px black;
+}
+
+
+
+/* class for wp-image manipulation */
+.bordered-thumb {
+  border: 3px solid black;
+}
+/* need to write a query to make image responsive */
+
+.center-image {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+/* header styles */
+.heroesheader {
+  background-color: #f9f9f9;
+  background-image: ;
+}
+
+
+/* footer styles */
+.heroesfooter {
+  text-align: center;
+  background-color: #2b2a28;
+  padding: 40px 0 40px 0;
+  color: #fff;
+}
+.heroesfooter ul {
+  padding: 0 0 0 0;
+}
+.heroesfooter ul > li{
+  list-style: none;
+}
+
+/* shape styles */
+#parallelogram { width: 150px;
+height: 50px;
+transform: skew(20deg);
+background: #000000;
+border-radius: 5px;
+}
+#parallelogramover { width: 150px;
+height: 50px;
+transform: skew(1deg) translateX(-5px) translateY(5px);
+border-radius: 5px;
+
+background: orange; }
+
+
+/*  MEDIA QUERIES */
+/* sideBar media queries */
+@media only screen and (max-width: 1000px)  {
+  div.sideBar {
+    background-color: olive;
+  }
+
+  #parallelogram {
+    width: 75px;
+    height: 25px;
+    transform: skew(20deg);
+    background: #000000;
+    border-radius: 5px;
+  }
+
+  #parallelogramover { width: 75px;
+  height: 25px;
+  transform: skew(1deg) translateX(-5px) translateY(5px);
+  border-radius: 5px;
+
+  background: orange; }
+
+}
