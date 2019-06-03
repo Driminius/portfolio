@@ -1,0 +1,21 @@
+<!--
+Author: Adrian Domingo;
+Date: 5/31/2019
+Email for inquiries: adrianashimself@yahoo.com
+Purpose: I created a custom wordpress template for 'Heroes Avenue'
+
+Credit to the following groups, people for helping me design and develop this template
+
+https://www.taniarascia.com/ , had I not discover her articles, i wouldn't know where to start
+towards developing a custom wp template. Currently broke, i will buy you a coffee sometime soon!
+
+https://www.wpbeginner.com/wp-themes/how-to-add-custom-navigation-menus-in-wordpress-3-0-themes/
+the documentation here helps implement functions provided by wp
+
+https://developer.wordpress.org/themes/basics/template-files/ Not that intuitive of a tutorial but
+helps cover most of the implementations and topics to develop a custom wp template
+
+https://getbootstrap.com/docs/4.3/getting-started/introduction/ The foundation of creating
+responsive design!
+
+-->
